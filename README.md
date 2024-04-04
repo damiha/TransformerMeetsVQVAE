@@ -53,13 +53,10 @@ Note: the MSE loss makes the reconstructions blurry (mentioned in the DALLE-1 pa
 
 | Hyperparameters for Sampling  |          Details          |
 |-------------------------------|---------------------------|
-| Sequence Generation           | 64 sequences at the same time |
+| Sequence Generation           | 8 sequences at the same time |
 | Transformer Temperature       | 0.8                        |
-| Classifier                    | CNN trained on MNIST      |
-| Classifier Logits Temperature | 0.8                        |
-| Output Selection              | Best 8 sequences shown    |
 
-- Inference time (64 generations): approx. 3s (on an RTX3060)
+- Inference time (8 generations): approx. 3s (on an RTX3060)
 
 ## Results
 
